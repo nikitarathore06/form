@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #d2cde1;
+            margin: auto;
+        }
+        
+        .container {
+            background-color: rgb(172, 167, 232);
+            border: 5px solid rgb(16, 5, 119);
+            padding: 100px;
+            margin: 20px 360px;
+        }
+        
+        .btn {
+            background-color: rgb(110, 126, 8);
+            padding: 6px;
+            border: none;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        
+        .btn:hover {
+            background-color: rgb(215, 240, 105);
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h1>Registration Form</h1>
+
+        <form>
+            <div>
+                Name: <input type="Name" name="Myname">
+            </div>
+            <br>
+            <div>
+                Email: <input type="email" name="Myemail">
+            </div>
+            <br>
+            <div>
+                Contact number: <input type="Contact number" name="Contact number">
+
+            </div>
+            <br>
+            <br>
+            <div>
+                DOB:<input type="datetime-local" name="datetime">
+            </div>
+            <br>
+            <div>
+                Last Exam Number: <input type="number" name="number">
+            </div>
+            <br>
+            <div>I agree to the Term & Condition of the form details: <input type="checkbox" name="select term & Condition">
+            </div>
+            <br>
+            <div>
+                Male: <input type="radio" name="gender"> Female: <input type="radio" name="gender"> Other: <input type="radio" name="gender">
+            </div>
+            <br>
+            <div>
+                Description: <br> <textarea name="Mydescription"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="city">City Name</label>
+                <select name="city name" name="select any city name">
+                    <option value="Indore">Indore</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Ujjain">Ujjain</option>
+                    <option value="khandwa">khandwa</option>
+                    <option value="Indore">Select city</option>
+                </select>
+            </div>
+            <br>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+
+    </div>
+
+    </div>
+
+    </form>
+
+</body>
+
+</html>
